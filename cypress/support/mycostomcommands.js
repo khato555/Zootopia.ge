@@ -1,4 +1,5 @@
 Cypress.Commands.add("login",(email,password) => {
+    cy.wait(1000)
     cy.visit("https://zootopia.ge/ka");
     cy.wait(3000)
     cy.get(".rprof > p").click();
