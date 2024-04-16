@@ -29,3 +29,4 @@ Cypress.Commands.add("product",() =>{
     cy.get(':nth-child(7) > .swiper-container > .swiper-wrapper > :nth-child(11) > .price-cart > .product-cart').click()
     cy.get('.menu-pop > [href="https://zootopia.ge/ka/cart"]').click()
 })
+//
